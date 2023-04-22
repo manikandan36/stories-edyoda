@@ -1,0 +1,77 @@
+body{body{
+    background-color: lightskyblue;
+}
+#topbar{
+    background-color:grey;
+    padding: 10px;
+    color: white;
+}
+.menu-item{
+    font-size: 20px;
+    padding: 8px;
+}
+#food-items{
+    font-size: 20px;
+    padding-left: 15px;
+}
+.food-menu{
+    font-size: 20px;
+}
+.images{
+    width: 350px;
+    height: 350px;
+}
+.center{
+    text-align: center;
+}
+topbar:hover{
+    background-color: black;
+
+}
+.menu-item:hover{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Food Place</title>
+    <link rel="stylesheet" type="text/css" href="food.css">
+</head>
+<body>
+<h1>Foodie Place</h1>      
+ <nav> 
+     <ul>
+        <li><a class="food-menu" href="#Biryani"> Biryani</a></li>
+        <li><a class="food-menu" href="#Chicken rise"> Chicken rise</a></li>
+        <li><a class="food-menu" href="#Jalebi"> Jalebi</a></li>
+        <li><a class="food-menu" href="#Pizza"> Pizza</a></li>
+        <li><a class="food-menu" href="#Khichdi"> Khichdi</a></li>
+  </ul>
+  <div class="center">
+    <img class="images" id="Biryani" src="https://i.pinimg.com/564x/7a/e8/e7/7ae8e7b8b0952df598b1a56b875a2f86.jpg" alt="Chicken Biryani" />
+    <p> Biryani</p>
+  </div>
+  <div class="center">
+    <img class="images" id="Chicken rise" src="C:\Users\ELCOT\Downloads\html\connect\food\abc\4a2a8220-2671-4fbd-8690-3e34922a528a.jpg" alt="Chicken rise" />   
+    <p>Chicken rise</p>
+  </div>
+  <div class="center">
+    <img class="images" id="Jalebi" src="https://i.pinimg.com/564x/07/bd/d2/07bdd2143a08cace584643357384b6d2.jpg" alt="Jalebi" />
+    <p>Jalebi</p>
+  </div>
+  <div class="center">
+    <img class="images" id="Pizza" src="https://i.pinimg.com/564x/d9/92/b7/d992b718fa2dc8d471314d1ebbef6c6f.jpg" alt="Pizza" />
+    <p>Pizza</p>
+  </div>
+  <div class="center">
+    <img class="images" id="Khichdi" src="https://i.pinimg.com/564x/ea/a8/db/eaa8dbdd93647e40eb0bc460fd342ddc.jpg" alt="Khichdi" />
+    <p>Khichdi</p>
+</div>
+</body>
+</html>
